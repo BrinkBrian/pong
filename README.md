@@ -20,4 +20,13 @@ type: git commit -m "comment on your change to the code"
 Then push your changed version of the code back to your github account
 type:git push
 
+toevoegingen 
+andere geluiden
+effecten on-hit
+1  bal - 
+winnerscreen
+easy - medium - hard
+sound on/off
+
+
 

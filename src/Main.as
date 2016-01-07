@@ -3,13 +3,14 @@ package
 	import flash.display.Sprite;
 	import flash.events.Event;
 	import screens.GameOverScreen;
+	import screens.WinnerScreen;
 	import screens.GameScreen;
 	import screens.IntroScreen;
 	import sounds.SoundPlayer;
 	
 	/**
 	 * ...
-	 * @author Erwin Henraat
+	 * @author Brink Brian
 	 */
 	public class Main extends Sprite 
 	{
@@ -21,7 +22,7 @@ package
 		public function Main() 
 		{
 			if (stage) init();
-			else addEventListener(Event.ADDED_TO_STAGE, init);
+			else addEventListener(Event.ADDED_TO_STAGE, init);	
 		}		
 		private function init(e:Event = null):void 
 		{
